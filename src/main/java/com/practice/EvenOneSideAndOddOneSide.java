@@ -9,11 +9,15 @@ public class EvenOneSideAndOddOneSide
         int[] result =new int[numbers.length];
 
         for(int i=0;i<numbers.length-1;i++){
+        //for(int num: numbers){
             if(numbers[i] % 2 ==0){
+            //if(num % 2 ==0){
                 result[evenIndex]=numbers[i];
+                //result[evenIndex]=num;
                 evenIndex++;
             }else{
                 result[oddIndex]=numbers[i];
+                //result[oddIndex]=num;
                 oddIndex++;
             }
         }

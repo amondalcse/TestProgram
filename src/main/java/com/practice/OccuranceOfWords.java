@@ -21,17 +21,17 @@ public class OccuranceOfWords
         }
         Set<String> set = map.keySet();
         for(String s:set){
-            if(map.get(s)<=1){
+            if(map.get(s)>1){
                 System.out.print(s + " "+map.get(s)+" ");
             }
         }
 
-        for(Map.Entry<String,Integer> entry:map.entrySet()){
+       /* for(Map.Entry<String,Integer> entry:map.entrySet()){
             if(entry.getValue()>=k){
                 v=entry.getKey();
                 k=entry.getValue();
             }
-        }
+        }*/
         /*System.out.print(k + " ");
         System.out.print(v+ " ");
         System.out.print(map+ " ");*/

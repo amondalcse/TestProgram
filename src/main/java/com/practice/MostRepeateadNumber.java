@@ -21,13 +21,13 @@ public class MostRepeateadNumber
         for(Map.Entry<Integer,Integer> ent: map.entrySet()){
             if(ent.getValue()>max_int){
                 max_int = ent.getKey();
-                count = ent.getValue();
+                //count = ent.getValue();
             }
         }
         for(Map.Entry<Integer,Integer> ent: map.entrySet()){
             if(ent.getValue()>secondMaxRepeat && ent.getValue()!=max_int){
                 secondMaxRepeat = ent.getKey();
-                count = ent.getValue();
+                //count = ent.getValue();
             }
         }
 

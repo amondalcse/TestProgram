@@ -3,7 +3,7 @@ package com.practice;
 public class HighestLowestNumberInArray
 {
     public static void main(String[] args){
-        int[] array = {15,34,22,44,61,56};
+        int[] array = {15,34,22,44,61,56,11};
         int highest=array[0];
         int lowest=array[0];
         for(int i=0;i<array.length;i++){

@@ -16,7 +16,7 @@ public class FindTargetElement
 
     public static void main(String[] args) {
         int[] array ={1,2,4,6,7};
-        int target=7;
+        int target=4;
         int index = linearSearch(array,target);
         if(index!=-1){
             System.out.println(index);

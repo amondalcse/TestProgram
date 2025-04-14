@@ -20,7 +20,7 @@ public class TwoSumWith2Pointers
 
     public static void main(String[] args){
         int[] numbers={0, -1, 2, -3, 1};
-        int target=2;
+        int target= 2;
         int[] result = twoSum(numbers,target);
         if(result.length==2){
             System.out.println("indecies" +result[0] +","+result[1]);

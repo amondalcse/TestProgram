@@ -3,7 +3,7 @@ package com.practice;
 public class SecondHighestAndLowest
 {
     public static void main(String[] args){
-        int[] array = {15,34,22,44,61,56, 10};
+        int[] array = {15,17,34,22,44,61,56, 20};
         int largest =array[0];
         int secondHighest=array[0];
         int secondLowest=array[0];
