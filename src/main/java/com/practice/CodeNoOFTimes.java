@@ -17,7 +17,7 @@ public class CodeNoOFTimes
         }
 
         System.out.println(count/5)*/;
-        int count=0;
+        /*int count=0;
         StringTokenizer tokenizer = new StringTokenizer(str,"a");
         while(tokenizer.hasMoreTokens()){
             String token =tokenizer.nextToken();
@@ -25,6 +25,15 @@ public class CodeNoOFTimes
                 count++;
             }
         }
+        System.out.println("occerence of code:"+count);*/
+
+        int count=0;
+        for(int i=0;i<str.length()-3;i++){
+            if(str.charAt(i)=='c' && str.charAt(i+1)=='o' && str.charAt(i+2)=='d' && str.charAt(i+3)=='e'){
+                count++;
+            }
+        }
         System.out.println("occerence of code:"+count);
     }
+
 }

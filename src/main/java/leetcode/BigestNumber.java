@@ -3,7 +3,7 @@ package leetcode;
 public class BigestNumber
 {
     public static void main(String[] args){
-        String str ="abc86rd";
+        String str ="abc86rd9";
         int max_digit = -1;
 
 

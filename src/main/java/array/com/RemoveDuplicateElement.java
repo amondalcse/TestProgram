@@ -15,9 +15,9 @@ public class RemoveDuplicateElement
         }
         System.out.println(set);*/
         int newLength=1;
-        for(int i=0;i<arr.length;i++){
+        for(int i=0;i<arr.length-1;i++){
             int j;
-            for(j=0;j<arr.length;j++){
+            for(j=0;j<arr.length-1;j++){
                 if(arr[i]==arr[j]){
                     break;
                 }

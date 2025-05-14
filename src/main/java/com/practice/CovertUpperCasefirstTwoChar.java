@@ -10,7 +10,7 @@ public class CovertUpperCasefirstTwoChar
         String[] words = str.split(" ");
         StringBuilder sb= new StringBuilder();
         for(String word: words){
-            if(word.length()>=2){
+            if(word.length()>2){
                 sb.append(word.substring(0,2).toUpperCase()).append(word.substring(2)).append(" ");
             }else{
                 sb.append(word.toLowerCase()).append(" ");

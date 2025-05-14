@@ -2,30 +2,30 @@ package com.practice;
 
 import java.util.Arrays;
 
-public class Pr
-{
-    public static void main(String[] args) {
-        /*int[] numbers = {1,2,3,4,5,6};
-        int evenIndex =0;
-        int oddIndex=numbers.length/2;
-        int[] result = new int[numbers.length];
-
+public class Pr {
+    public static void main(String[] args)
+    {
+        int[] numbers = {1, 2, 3, 4, 5, 6};
+        int evenIndex = 0;
+        int oddIndex = numbers.length / 2;
+        int result[] = new int[numbers.length];
         for(int i=0;i<numbers.length;i++){
             if(numbers[i] % 2 ==0){
-                result[evenIndex]= numbers[i];
+                result[evenIndex]=numbers[i];
                 evenIndex++;
             }else{
-                result[oddIndex]= numbers[i];
+                result[oddIndex]=numbers[i];
                 oddIndex++;
             }
         }
-        for(int num:result){
-            System.out.print(num +" ");
-        }*/
+        for (int num: result){
+            System.out.print(num);
+        }
+
 
         //another question
 
-        int[] numbers = {1, 2, 0, 3, 4, 0, 5, 0};
+        //int[] numbers = {1, 2, 0, 3, 4, 0, 5, 0};
         //int rightSide=0;
         //int number = numbers.length/2;
         //int[] result = new int[numbers.length-1];
@@ -42,7 +42,7 @@ public class Pr
 
 
         System.out.print(Arrays.toString(numbers));*/
-        int count=0;
+        /*int count=0;
         for(int i=0;i<numbers.length;i++){
             int j;
             for(j=i+1;j<numbers.length;j++){
@@ -54,7 +54,7 @@ public class Pr
             }
 
 
-        }
+        }*/
 
     }
 }

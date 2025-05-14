@@ -8,7 +8,7 @@ import java.util.Set;
 public class OccuranceOfEachNumber
 {
     public static void main(String[] args) {
-        int[] numbers={1,1,2,2,2,3,3,4,4};
+        int[] numbers={1,2,2,2,3,3,4,4};
         Map<Integer,Integer> map = new HashMap<>();
         for(int number:numbers){
             if(map.containsKey(number)){
@@ -19,7 +19,7 @@ public class OccuranceOfEachNumber
         }
         Set<Integer> set = map.keySet();
         for(int s:set){
-            if(map.get(s)>1){
+            if(map.get(s)>=1){
                 System.out.println(s +" : "+map.get(s));
             }
         }

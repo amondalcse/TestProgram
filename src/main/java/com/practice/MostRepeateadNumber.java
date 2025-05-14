@@ -8,7 +8,7 @@ public class MostRepeateadNumber
     public static void main(String[] args) {
         int count=0;
         int secondMaxRepeat=0;
-        int[] numbers={2,3,5,6,2,8,3,7,3,8};
+        int[] numbers={2,3,5,6,2,8,3,7,3};
         Map<Integer,Integer> map = new HashMap<>();
         for(int num: numbers){
             if(map.containsKey(num)){
@@ -25,7 +25,7 @@ public class MostRepeateadNumber
             }
         }
         for(Map.Entry<Integer,Integer> ent: map.entrySet()){
-            if(ent.getValue()>secondMaxRepeat && ent.getValue()!=max_int){
+            if(ent.getValue()>=secondMaxRepeat && ent.getValue()!=max_int){
                 secondMaxRepeat = ent.getKey();
                 //count = ent.getValue();
             }
